@@ -1,3 +1,6 @@
+//best Case O(1)
+//Averge Case O(log n)
+//Worst Case O(log n)
 function binarySearch(arr, find) {
     var len = arr.length;
     var left = 0;
@@ -21,8 +24,10 @@ function binarySearch(arr, find) {
     console.log('out of the array');
 }
 
+//array is not sorted in this progrom
+//You have to sorted the array
+
 var arr = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 var find = 18;
-
 binarySearch(arr, find)
 
