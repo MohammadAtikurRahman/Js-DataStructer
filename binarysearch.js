@@ -8,7 +8,7 @@ function binarySearch(arr, find) {
     while (left <= right) {
         var mid = Math.floor((right + left) / 2);
         if (arr[mid] == find) {
-           
+
             console.log(find + ' found in the position ' + mid);
             return find;
 
@@ -19,12 +19,11 @@ function binarySearch(arr, find) {
 
             right = mid - 1;
         }
-
     }
     console.log('out of the array');
 }
 
-//array is not sorted in this progrom
+//array is sorted in this progrom
 //You have to sorted the array
 
 var arr = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
