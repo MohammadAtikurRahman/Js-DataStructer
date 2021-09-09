@@ -11,7 +11,6 @@ function binarySearch(arr, find) {
 
             console.log(find + ' found in the position ' + mid);
             return find;
-
         } else if (arr[mid] < find) {
 
             left = mid + 1;
@@ -25,8 +24,7 @@ function binarySearch(arr, find) {
 
 //array is sorted in this progrom
 //You have to sorted the array
-
 var arr = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
-var find = 18;
+var find = 1;
 binarySearch(arr, find)
 
